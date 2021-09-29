@@ -1,0 +1,9 @@
+{
+    "baseUrl":"http://localhost:3032",
+    "port":"3032",
+    "redisConfig": {
+        "port":6379,
+        "host":"localhost"
+    },
+    "cors":"http://localhost:3000"
+}

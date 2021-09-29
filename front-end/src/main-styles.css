@@ -1,0 +1,346 @@
+:root {
+    --primary-theme-color: #071321;
+    --secondary-theme-color: #8097a9;
+}
+
+button {
+    height: 40px;
+    background: blue;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+input {
+    width: 256px;
+    /* height: 40px; */
+    margin: 8px 0 0;
+    padding: 12px 2px 12px 16px;
+    border-radius: 2px;
+    border: solid 1px #c5d6e6;
+    background-color: #fff;
+}
+ul {
+    padding-left: 20px;
+}
+li {
+    margin: 10px 0;
+}
+.title-text {
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+}
+button:hover {
+    background-color: #9e9ead;
+}
+.home{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.home-overlay {
+    background-color: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.home-content {
+       /* position: fixed; */
+    /* top: 0; */
+    /* right: 0; */
+    /* bottom: 0; */
+    /* left: 0; */
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: #85878c;
+    border-radius: 2px;
+    margin: 10px;
+    overflow: initial;
+    /* max-width: 70%; */
+    z-index: 1;
+}
+.dialog-overlay {
+    background-color: rgba(0, 0, 0, 0.1);
+    /* position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; */
+}
+.dialog-content {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: #85878c;
+    border-radius: 2px;
+    margin: 10% 20%;
+    overflow: initial;
+    /* max-width: 70%; */
+    justify-content: center;
+}
+.dialog-form {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 160px;
+    padding: 32px;
+    border-radius: 16px;
+    background: aliceblue;
+}
+.dialog-title {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    margin: 10px 0;
+}
+.dialog-desc {
+
+
+}
+.game-content {
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--primary-theme-color);
+    background-image: url(https://mcdn.wallpapersafari.com/medium/24/11/9EODzM.jpg);
+    background-size: cover;
+}
+.game-header {
+    /* display: flex;
+    width: 100%;
+    margin: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    padding: 10px;
+    background: #6b0404;
+    color: #ffffff;
+    border-radius: 3px 3px 0 0;
+    box-shadow: #983b3b 0px 0px 10px 0px;
+    margin-bottom: 0px;
+    padding-left: 28px;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.334; */
+    display: flex;
+    width: 100%;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    padding: 10px;
+    background: var(--primary-theme-color);
+    color: #ffffff;
+    border-radius: 3px 3px 0 0;
+    box-shadow: #29306d 0px 0px 10px 0px;
+    padding-left: 28px;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.334;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 160px;
+    padding: 32px;
+    border-radius: 16px;
+    background: aliceblue;
+}
+.form-group label {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+.card {
+    display: flex;
+    height: 280px;
+    width: 200px;
+    background-color: #748084;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px;;
+    border: 1px solid #fd7e7e;
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+    background-image: url(https://wonder-day.com/wp-content/uploads/2021/04/wonder-day-wallpapers-cartoon-cat-21.jpg);
+    background-size: cover;
+  }
+.card:not(:first-child) {
+    margin-left: -190px;
+}
+
+.card:last-child:hover {
+transform: translateY(-20px);
+transition: 0.4s ease-out;
+}
+.card-description{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 40px;
+    align-items: center;
+}
+.card-description-item {
+    margin: 10px 0;
+}
+.card-description-item p{
+    text-transform: uppercase;
+    color: #08090a;
+}
+.container {
+    display: flex;
+    margin: 20px;
+    width: 70%;
+    justify-content: center;
+}
+.game-description{
+    width: 100%;
+    display: flex;
+    margin: 0 0 20px;
+    margin-top: 0;
+    flex-direction: column;
+    padding: 20px;
+    background: var(--secondary-theme-color);
+}
+.game-description span {
+    margin: 10px;
+}
+.game-area {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.play-header {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-content: center;
+    background: var(--secondary-theme-color);
+    border-radius: 3px;
+    flex-wrap: wrap-reverse;
+}
+.play-area{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* align-items: center; */
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.hr{
+    border: 1px solid #E8EFF5;
+    margin: 10px 0;
+}
+.title {
+    /* color: white; */
+    font-weight: 300;
+    /* position: absolute;
+    left: 20px;
+    top: 15px; */
+}
+.user-name {
+    color: #81879c;
+}
+.card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.flip-button {
+    height: 88%;
+    color: white;
+    width: 81%;
+    text-align: center;
+    align-items: center;
+    display: none;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    background: #40565f03;
+    /* border: 1px solid; */
+    display: flex;
+    cursor: pointer;
+}
+.card:last-child:hover .flip-button {
+   display: flex;
+}
+.selected-card {
+    background-color: white;
+    background-image: unset;
+}
+.game-info{
+    margin: 10px;
+    display: flex;
+    min-width: 70px;
+    flex-direction: column;
+    padding: 20px;
+    background: aliceblue;
+    border-radius: 3px;
+    justify-content: center;
+}
+.user-info {
+    margin: 10px;
+    display: flex;
+    min-width: 70px;
+    padding: 20px;
+    background: aliceblue;
+    border-radius: 3px;
+}
+.vr {
+    margin: 0 10px;
+    border-left: 1px solid;
+}
+.game-leaderboard {
+    flex-direction: column;
+    width: 200px;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    background: var(--secondary-theme-color);
+    border-radius: 3px;
+}
+.leaderboard-content, .leaderboard-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0;
+   
+}
+.leaderboard-header {
+    font-weight: 600;
+}
+.home-game-header {
+    display: flex;
+    height: 40px;
+    margin: 20px;
+    /* width: 100%; */
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #81879c;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}

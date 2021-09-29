@@ -1,0 +1,10 @@
+{
+    "baseUrl":"http://localhost:3033",
+    "port":"3033",
+    "redisConfig": {
+        "port":6379,
+        "host":"localhost",
+        "password":"asdadssd"
+    },
+    "cors":"https://exploding-cat-game.herokuapp.com"
+}
