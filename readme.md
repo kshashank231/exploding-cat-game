@@ -1,3 +1,5 @@
+This Game is developed using React Js with Redux as front end and Nodejs for backend
+
 1. open front-end folder and run npm i and then nodemon in that folder
 2. open back-end folder and run npm i and then npm start in that folder 
 (both 1 and 2 should run)
